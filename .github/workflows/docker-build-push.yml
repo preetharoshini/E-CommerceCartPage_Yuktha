@@ -80,6 +80,6 @@ jobs:
 
           push: true
 
-          tags: preethapreethu/e-commerce-cart:${{ steps.validate.outputs.tag }}
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/e-commerce-cart:${{ steps.validate.outputs.tag }}
 
  
